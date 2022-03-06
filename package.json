@@ -18,7 +18,7 @@
     "make-hook-executable": "chmod ug+x .husky/* && chmod ug+x .git/hooks/*"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.8.1",
+    "@chakra-ui/react": "^1.8.6",
     "@emotion/cache": "^11.7.1",
     "@emotion/react": "^11.7.1",
     "@emotion/server": "^11.4.0",
