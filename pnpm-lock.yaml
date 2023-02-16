@@ -30,7 +30,7 @@ specifiers:
   is-hotkey: ^0.2.0
   is-url: ^1.2.4
   joi: ^17.7.0
-  jotai: ^1.11.2
+  jotai: ^2.0.2
   lint-staged: ^13.1.0
   markdown-it: ^13.0.1
   nanoid: ^4.0.0
@@ -77,7 +77,7 @@ dependencies:
   is-hotkey: 0.2.0
   is-url: 1.2.4
   joi: 17.7.0
-  jotai: 1.11.2_react@18.2.0
+  jotai: 2.0.2_react@18.2.0
   markdown-it: 13.0.1
   nanoid: 4.0.0
   next: 13.0.7_biqbaboplfbrettd7655fr4n2y
@@ -3552,41 +3552,13 @@ packages:
       '@sideway/pinpoint': 2.0.0
     dev: false
 
-  /jotai/1.11.2_react@18.2.0:
-    resolution: {integrity: sha512-hVLn1aS1QprDy+NrvyWIOcaA/LEG5AY0Z7kWtx26EJ8eH8DY8pW1wUM0PrlqQzthqd6HdEVtXLY1rB//0n8LvA==}
+  /jotai/2.0.2_react@18.2.0:
+    resolution: {integrity: sha512-0yOked08Swa84LUbBjtj7ZLZrE05n3u50rHeZ+bsT86thUjcy0kFgQz9GmEWhYbQDFoT1G8Ww6edSj/MBJHO4A==}
     engines: {node: '>=12.20.0'}
     peerDependencies:
-      '@babel/core': '*'
-      '@babel/template': '*'
-      jotai-immer: '*'
-      jotai-optics: '*'
-      jotai-redux: '*'
-      jotai-tanstack-query: '*'
-      jotai-urql: '*'
-      jotai-valtio: '*'
-      jotai-xstate: '*'
-      jotai-zustand: '*'
-      react: '>=16.8'
+      react: '>=17.0.0'
     peerDependenciesMeta:
-      '@babel/core':
-        optional: true
-      '@babel/template':
-        optional: true
-      jotai-immer:
-        optional: true
-      jotai-optics:
-        optional: true
-      jotai-redux:
-        optional: true
-      jotai-tanstack-query:
-        optional: true
-      jotai-urql:
-        optional: true
-      jotai-valtio:
-        optional: true
-      jotai-xstate:
-        optional: true
-      jotai-zustand:
+      react:
         optional: true
     dependencies:
       react: 18.2.0
