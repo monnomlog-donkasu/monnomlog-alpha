@@ -22,7 +22,7 @@ specifiers:
   eslint-config-next: ^13.0.7
   eslint-config-prettier: ^8.5.0
   eslint-config-sznm: ^1.0.1
-  framer-motion: ^7.10.2
+  framer-motion: ^9.0.4
   happy-dom: ^8.1.0
   hotkeys-js: ^3.10.1
   husky: ^8.0.2
@@ -71,7 +71,7 @@ dependencies:
   axios: 1.2.1
   date-fns: 2.29.3
   date-fns-tz: 1.3.7_date-fns@2.29.3
-  framer-motion: 7.10.2_biqbaboplfbrettd7655fr4n2y
+  framer-motion: 9.0.4_biqbaboplfbrettd7655fr4n2y
   hotkeys-js: 3.10.1
   immer: 9.0.16
   is-hotkey: 0.2.0
@@ -2920,8 +2920,8 @@ packages:
     resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
     dev: true
 
-  /framer-motion/7.10.2_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-2OAII9hjpMNz2Nbl2w09uKo7A0bD6xRtGnCZbPzuGGueucWgmSBLjAwzPhXwzCQWMpL3LU8jmXHjxAwIyjslxg==}
+  /framer-motion/9.0.4_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-lZ1+2/WBn8iYRYmeEFpu/X2fI1GNwJL+X21EpnWwKP3vkJsnWBXZF5kHF29wIPk9sBU2xDIpDm9SAVo206bp9A==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
@@ -2930,7 +2930,7 @@ packages:
       hey-listen: 1.0.8
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      tslib: 2.4.0
+      tslib: 2.4.1
     optionalDependencies:
       '@emotion/is-prop-valid': 0.8.8
     dev: false
@@ -5441,10 +5441,6 @@ packages:
   /tslib/1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
-
-  /tslib/2.4.0:
-    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
-    dev: false
 
   /tslib/2.4.1:
     resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
