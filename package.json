@@ -38,7 +38,7 @@
     "framer-motion": "^9.1.7",
     "hotkeys-js": "^3.10.1",
     "html-tags": "^3.2.0",
-    "immer": "^9.0.19",
+    "immer": "^10.0.2",
     "is-hotkey": "^0.2.0",
     "is-url": "^1.2.4",
     "joi": "^17.8.3",
