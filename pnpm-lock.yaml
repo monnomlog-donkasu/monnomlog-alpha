@@ -50,8 +50,8 @@ dependencies:
     specifier: ^3.2.0
     version: 3.2.0
   immer:
-    specifier: ^9.0.19
-    version: 9.0.19
+    specifier: ^10.0.2
+    version: 10.0.2
   is-hotkey:
     specifier: ^0.2.0
     version: 0.2.0
@@ -126,7 +126,7 @@ dependencies:
     version: 4.1.4(@types/node@18.14.0)
   zustand:
     specifier: ^4.3.6
-    version: 4.3.6(immer@9.0.19)(react@18.2.0)
+    version: 4.3.6(immer@10.0.2)(react@18.2.0)
 
 devDependencies:
   '@commitlint/config-conventional':
@@ -3426,6 +3426,10 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
+  /immer@10.0.2:
+    resolution: {integrity: sha512-Rx3CqeqQ19sxUtYV9CU911Vhy8/721wRFnJv3REVGWUmoAcIwzifTsdmJte/MV+0/XpM35LZdQMBGkRIoLPwQA==}
+    dev: false
+
   /immer@9.0.19:
     resolution: {integrity: sha512-eY+Y0qcsB4TZKwgQzLaE/lqYMlKhv5J9dyd2RhhtGhNo2njPXDqU9XPfcNfa3MIDsdtZt5KlkIsirlo4dHsWdQ==}
     dev: false
@@ -6207,7 +6211,7 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /zustand@4.3.6(immer@9.0.19)(react@18.2.0):
+  /zustand@4.3.6(immer@10.0.2)(react@18.2.0):
     resolution: {integrity: sha512-6J5zDxjxLE+yukC2XZWf/IyWVKnXT9b9HUv09VJ/bwGCpKNcaTqp7Ws28Xr8jnbvnZcdRaidztAPsXFBIqufiw==}
     engines: {node: '>=12.7.0'}
     peerDependencies:
@@ -6219,7 +6223,7 @@ packages:
       react:
         optional: true
     dependencies:
-      immer: 9.0.19
+      immer: 10.0.2
       react: 18.2.0
       use-sync-external-store: 1.2.0(react@18.2.0)
     dev: false
